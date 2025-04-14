@@ -20,20 +20,22 @@ Also if a delivery boy reaches some house I updated his location as the location
 I've added two restaurants and two delivery boys for basic testing 
 
 Basic Workflow :
-Note : Everything is case sensitive .
-       Password is 1234 wherever asked .
-First a customer will order his dish . 
-He will get a customer id . (Using this he can login again to check the status of his order)
-Then we have to login as restaurant 
-Then the request will be sent to the desired restaurant .
-Then the restaurant might accept or reject the order :
+-Note : 
+Everything is case sensitive .
+Password is 1234 wherever asked .
+
+-First a customer will order his dish . 
+-He will get a customer id . (Using this he can login again to check the status of his order)
+-Then we have to login as restaurant 
+-Then the request will be sent to the desired restaurant .
+-Then the restaurant might accept or reject the order :
 - If rejected the customer will see the status as rejected .
-Note : There might be multiple requests pending in the restaurant . So if the number of orders outnumbers the number of delivery persons then we will accept priority orders first and keep others pending .
-Note : You have to enter list as : 6,2,3,5,7 to accept orders as restaurant . And the order first accepted by restaurant will be given more priority . Obviously if it is normal then it will have lower priority than priority .
+-Note : There might be multiple requests pending in the restaurant . So if the number of orders outnumbers the number of delivery persons then we will accept priority orders first and keep others pending .
+-Note : You have to enter list as : 6,2,3,5,7 to accept orders as restaurant . And the order first accepted by restaurant will be given more priority . Obviously if it is normal then it will have lower priority than priority .
 - If accepted : 
-A delivery boy will be autoassigned for the delivery 
-Then when will you check the status again as customer . You'll see real time similar simulation of the delivery of the order 
-Note : I've used time.sleep when customer logins to check status . I know this is wrong but this is near perfect simulation as we know customer will immedietly check the order status . 
+-A delivery boy will be autoassigned for the delivery 
+-Then when will you check the status again as customer . You'll see real time similar simulation of the delivery of the order 
+-Note : I've used time.sleep when customer logins to check status . I know this is wrong but this is near perfect simulation as we know customer will immedietly check the order status . 
 Once all orders delivered
 Restaurants will accept the later order and will deliver them !
 
