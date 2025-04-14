@@ -1,8 +1,8 @@
 # Welcone to Tomato
 This repository contains the task submission of the Lord of the chains task by Prathamesh Kukade 240573
 
-What I understood : __
-    - We have to create a CLI for a food delivery app like Zomato ! __
+What I understood : 
+    - We have to create a CLI for a food delivery app like Zomato ! 
     - Customer should be able to order food and check its status 
     - Restaurants should be able to accept or reject orders 
     - Delivery boys should be selected on the basis of time required to deliver the order 
