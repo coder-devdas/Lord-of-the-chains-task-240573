@@ -1,4 +1,4 @@
-# Lord-of-the-chains-task-240573
+# Welcone to Tomato
 This repository contains the task submission of the Lord of the chains task by Prathamesh Kukade 240573
 
 What I understood :
